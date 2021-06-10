@@ -42,7 +42,9 @@
             android:id="@+id/textView30"
             style="@style/et1"
             android:layout_marginLeft="30dp"
-            android:text="Price before Tax" />
+            android:background="@android:color/holo_orange_dark"
+            android:text="Price before Tax"
+            android:textColor="#16697a" />
 
         <TextView
             android:id="@+id/textView50"
@@ -58,7 +60,8 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="102dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="20dp"
         android:background="@color/black"
         android:orientation="horizontal">
 
@@ -66,13 +69,10 @@
         <TextView
             android:id="@+id/textView40"
             style="@style/et1"
-            android:layout_width="175dp"
-            android:layout_height="match_parent"
-            android:text="Price After Tax"
             android:layout_marginLeft="30dp"
-            android:textAlignment="textStart"
-            android:textColor="#db6400"
-            android:textStyle="bold" />
+            android:background="@android:color/holo_orange_dark"
+            android:text="Price After Tax  "
+            android:textColor="#16697a" />
 
         <TextView
             android:id="@+id/textView60"
