@@ -27,8 +27,8 @@ public class Purchase extends AppCompatActivity {
         sf=intent.getStringExtra("SF");
         sft.setMovementMethod(new ScrollingMovementMethod());
         sft.setText(sf);
-        before.setText(price+" $");
-        after.setText(priceTax+" $");
+        before.setText(Math.round(price*100.0)/100.0+" $");
+        after.setText(Math.round(priceTax*100.0)/100.0+" $");
 
 
     }
