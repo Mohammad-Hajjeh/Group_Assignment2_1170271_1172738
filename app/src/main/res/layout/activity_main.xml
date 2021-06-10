@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/darker_gray"
+    android:background="@android:color/background_dark"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -17,7 +17,8 @@
         android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
         app:title="               MENU"
-        app:titleTextAppearance="@style/Toolbar.TitleText">
+        app:titleTextAppearance="@style/Toolbar.TitleText"
+        app:titleTextColor="#16697a">
 
         <Button
             android:id="@+id/cart"
@@ -40,10 +41,9 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="5dp"
-
         android:layout_marginRight="5dp"
-        android:background="@android:color/darker_gray"
-        android:backgroundTint="@android:color/darker_gray"
+        android:background="@android:color/background_dark"
+        android:backgroundTint="@android:color/background_dark"
         android:foregroundGravity="center" />
 
 
